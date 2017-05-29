@@ -9,4 +9,13 @@ FASE 1
 Ik zie de andere fansites niet echt als concurrenten, ik zie het meer als sites waar ik ook weer van kan leren. 
 Tuurlijk wil ik de beste site hebben maar je kan je concurrenten ook in een positieve zin te gebruiken.
 Mijn doelgroep is vooral vanaf 12 tot ongeveer 26 jaar.
-Ik wil dat mijn gebruikers een aantal dingen kunnen doen. Reageren op artikelen die ik plaats, 
+Ik wil dat mijn gebruikers een aantal dingen kunnen doen. Reageren op artikelen die ik plaats, registreren en inloggen, 
+(aankomende) updates van de game bekijken en dat je de eSports kan volgen.
+
+FASE 2
+Debriefing,
+Zie debriefing.md
+
+FASE 3 
+
+FASE 4

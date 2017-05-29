@@ -1,6 +1,9 @@
 Klas: MD1a
+
 Naam: Patrick Frumau
+
 Contactgegevens: 24011@ma-web.nl
+
 
 
 • Wie of wat is het bedrijf? 

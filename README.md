@@ -15,3 +15,7 @@ die worden gevoerd. Ook wil ik mensen die erg belangrijk zijn voor de game Rocke
 en die geven mij feedback over wat zij denken wat het beste is om te posten. 
 
 Hierbij komen we tot hopelijk de beste fansite van Rocket League in Nederland
+
+
+Dit is de link naar mijn website: 
+http://24011.hosts.ma-cloud.nl/Bewijzenmap/p1.4/MyBand/index.php

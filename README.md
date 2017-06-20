@@ -42,6 +42,7 @@ http://24011.hosts.ma-cloud.nl/Bewijzenmap/p1.4/MyBand/index.php
    [doc/1/urenschatting.md]: 
    [doc/1/planning.md]: 
    [doc/1/moodboard]: https://github.com/Pariek6/myBand/blob/master/Moodboard.pdf
+   
    Styleboard: https://github.com/Pariek6/myBand/blob/master/Styleboard.pdf
    [FO]: 
    [Flow]: 

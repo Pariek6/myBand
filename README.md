@@ -19,6 +19,8 @@ Hierbij komen we tot hopelijk de beste fansite van Rocket League in Nederland
 Dit is de link naar mijn website: 
 http://24011.hosts.ma-cloud.nl/Bewijzenmap/p1.4/MyBand/index.php
 
+Doelstelling: https://github.com/Pariek6/myBand/blob/master/Doelstelling.md
+
 
 
 #### Milestones Fase 1

@@ -22,11 +22,17 @@ $action = isset($_GET['page']) ? $_GET['page'] : 'home';
 
 switch ($action) {
     case 'home':
-        include 'views/home.tpl';
 
+        include 'views/home.tpl';
         break;
     case 'articles':
-        //get articles from the model
+        include 'model/get_pagination.php';
+        $templateParser->assign('page', $page);
+        include 'model/get_data.php';
+        $templateParser->assign('number_of_pages',$number_of_pages);
+        $templateParser->assign('result',$result);
+
+
         require_once 'model/getarticles.php';
 
         $templateParser->assign('article_list', $result_list);

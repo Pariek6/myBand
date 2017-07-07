@@ -1,6 +1,6 @@
-@import url('https://fonts.googleapis.com/css?family=Modak')
+@import url("https://fonts.googleapis.com/css?family=Modak")
 
-@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy')
+@import url("https://fonts.googleapis.com/css?family=Luckiest+Guy")
 
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
   margin: 0
@@ -13,8 +13,6 @@ html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockq
 html, body
   margin: 0 auto
   padding: 0px
-
-.wrapper
 
 header
   width: 100%
@@ -58,7 +56,7 @@ nav
     text-align: center
     margin: 0 auto
     padding: 8px
-    color: rgb(249, 24, 224)
+    color: #f918e0
     box-sizing: border-box
     &:hover
       border-radius: 10px 0px 50px 50px
@@ -77,24 +75,19 @@ a
 nav li a
   text-decoration: none
 
-.wrap
-
-  > p
-    margin-top: 20px
-    font-size: 60px
-    font-family: 'Luckiest Guy', cursive
-    color: white
+.wrap > p
+  margin-top: 20px
+  font-size: 60px
+  font-family: 'Luckiest Guy', cursive
+  color: white
 
 .title
-
-
   img
     width: 100%
   h1
     font-size: 60px
-    font-family: 'Luckiest Guy', cursive
+    font-family: "Luckiest Guy", cursive
   h2
-
     width: 100%
     height: 70px
     border: 2px solid white
@@ -124,8 +117,8 @@ nav li a
     height: 400px
     box-sizing: border-box
     background-color: rgba(0, 0, 0, 0.8)
-    border: 2px solid rgb(14, 100, 180)
-    border-bottom: 60px solid rgb(14, 100, 180)
+    border: 2px solid #0e64b4
+    border-bottom: 60px solid #0e64b4
     border-radius: 20px
     font-family: 'Luckiest Guy', cursive
     text-align: center
@@ -156,21 +149,53 @@ nav li a
 footer
   background: rgba(39, 87, 56, 0.73)
   margin-top: 1em
+  height: 4%
   color: white
   text-align: left
   flex: 1 0 auto
   font-size: 30px
   border-top: 8px solid rgba(1, 118, 255, 0.5)
-  > p
-    text-align: center
+  >
+    p
+      text-align: center
+      margin-bottom: 200px
+    img
+      margin: 0 auto
+      text-align: right
+      left: 0
+      margin-top: 20px
+      height: 200px
 
-  > img
-    margin: 0 auto
-    text-align: right
-    left: 0
-    margin-top: 20px
-    height: 200px
+#pagechanger
+  font-size: 40px
+  margin: 0 auto
+  text-align: center
 
+#left, #right
+  border-radius: 5px
+  padding: 3px
+  &:hover
+    background-color: rgb(73, 122, 226)
+    transition: all .2s ease-in-out
+    transform: scale(1.1)
+
+#middle
+  width: 15%
+
+.about
+  width: 100%
+  margin-top: 1em
+  h1
+    color: white
+    font-family: 'Luckiest Guy', cursive
+    font-size: 50px
+  p
+    color: rgb(193, 203, 199)
+    font-size: 22px
+    text-align: left
+    padding: 1em
+  img
+    width: 30%
 
 .contact
   width: 60%
@@ -179,12 +204,61 @@ footer
   text-align: center
   font-family: 'Luckiest Guy', cursive
   border-radius: 30px
-
-  > h1
-  font-size: 60px
-  margin-top: 3em
-  color: white
-
+  h1
+    font-size: 60px
+    margin-top: 3em
+    color: white
   > p
     font-size: 50px
     color: white
+
+table#agenda
+  margin: 0 auto
+  border-collapse: collapse
+  font-family: Agenda-Light, sans-serif
+  font-weight: 100
+  background: #333
+  color: #fff
+  text-rendering: optimizeLegibility
+  border-radius: 5px
+  caption
+    font-size: 2rem
+    color: white
+    margin: 1rem
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center left, center right
+  thead th
+    font-weight: 600
+    padding: .8rem
+    font-size: 1.4rem
+  tbody
+    td
+      padding: .8rem
+      font-size: 1.4rem
+      padding: .8rem
+      font-size: 1.4rem
+      color: #444
+      background: #eee
+    tr:not(:last-child)
+      border-top: 1px solid #ddd
+      border-bottom: 1px solid #ddd
+
+@media screen and (max-width: 600px)
+  table#agenda
+    caption
+      background-image: none
+    thead
+      display: none
+    tbody
+      td
+        display: block
+        padding: .6rem
+      tr td:first-child
+        background: #666
+        color: #fff
+      td:before
+        content: attr(data-th)
+        font-weight: bold
+        display: inline-block
+        width: 6rem
